@@ -48,8 +48,11 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <footer className="bg-indigo-500 text-center p-4 mt-12">
+        <p className="text-white">© {new Date().getFullYear()} Joart. All rights reserved.</p>
+      </footer>
     </nav>
-  );
-}
+      );
+    }
 
 export default Navbar;
