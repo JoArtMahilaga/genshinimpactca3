@@ -27,7 +27,7 @@ export default function Login() {
   </button>
      </form>
           <div className="mt-4">
-            <p className="text-lg">Don't have an account?</p>
+            <p className="text-lg">Don&apos;t have an account?</p>
             <Link href="/signup"> 
               <a className=" bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded duration-300 mt-4">
                 Sign Up
