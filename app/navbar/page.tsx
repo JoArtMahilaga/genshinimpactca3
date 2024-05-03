@@ -48,9 +48,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-indigo-500 text-center p-4 mt-12">
-        <p className="text-white">© {new Date().getFullYear()} Joart. All rights reserved.</p>
-      </footer>
+      <footer className="bg-indigo-500 text-center p-4 mt-12 fixed w-full bottom-0">
+  <p className="text-white">© {new Date().getFullYear()} Joart. All rights reserved.</p>
+</footer>
     </nav>
       );
     }
