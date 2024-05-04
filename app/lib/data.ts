@@ -1,8 +1,6 @@
 import { sql } from '@vercel/postgres';
 
 
-// Games data
-
 export async function fetchWeapons() {
 
   
@@ -12,7 +10,7 @@ export async function fetchWeapons() {
       return data.rows;
     } catch (error) {
       console.error('Database Error:', error);
-      throw new Error('Failed to fetch games data.');
+      throw new Error('Failed to fetch weapons data.');
     }
   }
 
@@ -25,7 +23,7 @@ export async function fetchWeapons() {
       return data.rows;
     } catch (error) {
       console.error('Database Error:', error);
-      throw new Error('Failed to fetch games data.');
+      throw new Error('Failed to fetch character data.');
     }
   }
 
